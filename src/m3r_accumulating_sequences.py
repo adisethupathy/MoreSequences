@@ -5,11 +5,11 @@ one item at a time, using the ACCUMULATOR pattern.
         sequences, namely by MUTATING their elements.
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Adi Sethupathy.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 # ----------------------------------------------------------------------
-# TODO: 2. READ the program below and RUN it.
+# DONE: 2. READ the program below and RUN it.
 #
 #   When you have read it, asking questions as needed,
 #   and you feel that you understand,
@@ -123,11 +123,11 @@ def build_string():
     # ------------------------------------------------------------------
     """ This example builds (and then prints) the STRING
         0 1 4 9 16 25 36 49 64 81 """
-    sequence = ''
+    s = ''
     for k in range(10):
-        sequence = sequence + str(k ** 2) + ' '
+        s += str(k ** 2) + ' '
 
-    print(sequence)
+    print(s)
 
 
 # ----------------------------------------------------------------------
